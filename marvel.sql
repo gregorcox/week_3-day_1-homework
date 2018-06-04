@@ -65,6 +65,8 @@ SELECT name FROM people;
 -- 4.  Return ONLY your name from the 'people' table.
 SELECT name FROM people WHERE id = 6;
 -- 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
+DELETE FROM movies WHERE title = 'Batman Begins';
+SELECT * FROM movies;
 -- 6.  Create a new entry in the 'people' table with the name of one of the instructors.
 -- 7.  Emily Milne has decided to hijack our movie evening, Remove her from the table of people.
 -- 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'!! Create a new entry in the 'movies' table to reflect this.
