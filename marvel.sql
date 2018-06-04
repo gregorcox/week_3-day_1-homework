@@ -71,5 +71,7 @@ SELECT * FROM movies;
 INSERT INTO people (name) VALUES ('Tony Goncalves');
 SELECT * FROM people;
 -- 7.  Emily Milne has decided to hijack our movie evening, Remove her from the table of people.
+DELETE FROM people WHERE name = 'Emily Milne';
+SELECT * FROM people;
 -- 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'!! Create a new entry in the 'movies' table to reflect this.
 -- 9.  The cinema would also like to make the Guardians movies a back to back feature. Find out the show time of "Guardians of the Galaxy" and set the show time of "Guardians of the Galaxy 2" to start two hours later.
