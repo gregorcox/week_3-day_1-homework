@@ -56,6 +56,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:0
 -- ## Questions
 --
 -- 1.  Return ALL the data in the 'movies' table.
+SELECT * FROM movies;
 -- 2.  Return ONLY the name column from the 'people' table
 -- 3.  Oops! Someone at CodeClan spelled Jesus's name wrong! Change it to reflect the proper spelling ('Jezuz Perez' should be 'Jesus Perez').
 -- 4.  Return ONLY your name from the 'people' table.
