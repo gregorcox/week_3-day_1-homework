@@ -60,6 +60,8 @@ SELECT * FROM movies;
 -- 2.  Return ONLY the name column from the 'people' table
 SELECT name FROM people;
 -- 3.  Oops! Someone at CodeClan spelled Jesus's name wrong! Change it to reflect the proper spelling ('Jezuz Perez' should be 'Jesus Perez').
+UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
+SELECT name FROM people;
 -- 4.  Return ONLY your name from the 'people' table.
 -- 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 -- 6.  Create a new entry in the 'people' table with the name of one of the instructors.
