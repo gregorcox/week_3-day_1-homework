@@ -77,3 +77,5 @@ SELECT * FROM people;
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '18:00');
 SELECT * FROM movies;
 -- 9.  The cinema would also like to make the Guardians movies a back to back feature. Find out the show time of "Guardians of the Galaxy" and set the show time of "Guardians of the Galaxy 2" to start two hours later.
+UPDATE movies SET show_time = '21:05' WHERE title = 'Guardians of the Galaxy 2';
+SELECT * FROM movies;
